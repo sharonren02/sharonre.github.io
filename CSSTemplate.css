@@ -1,0 +1,278 @@
+/* In ordering my CSS page, I decided to order it alphabetically so that it would be easier to find when looking through the HTML file 
+and coming across a specific class or element. It is also a personal preference, as I noticed that many times, when I am searching for 
+something specific, I would look at nearby elements as well, since most of them apply to each other. In a CSS file, I usually do control-F 
+to quick search, if I can't find what I'm looking for, but in the case that that isn't possible, I can still look through alphabetically and 
+get a gauge for where it might be. */
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Open-Sans/OpenSans-Regular.eot");
+    src: url("../fonts/Open-Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Open-Sans/OpenSans-Regular.woff") format("woff"), url("../fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+  }
+.center-2>h1, .center-2>p{
+    text-align: center;
+}
+
+.center-2{
+    width: 940px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-3{
+    width: 300px;
+    margin: 0 0;
+    }
+
+.center-mid-1{
+    width: 940px;
+    background-color: #BEB594;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-2{
+    width: 940px;
+    background-color: #efeae6;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-3{
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-text {
+    text-align: center;
+    }
+
+.intro{
+    margin: auto;
+    float: left;
+    width: 20%;
+    clear: right; 
+    margin-left: 10px;
+    border:thin solid black;
+    }
+
+.p-1{
+    margin: 10px;
+}
+
+.smlogo{
+        height: 21.3px;
+        width: 17px;
+        margin: auto;
+        display: block;
+    }
+    }
+
+.menu-holder {
+    float:left;
+    max-width: 80%;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    background-color: #ffffff;
+    right: -100%;
+    top: 0;
+    transition: right .3s ease;
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+    z-index: 99;
+    }    
+
+/* Used for the Form (Contact Page)  */ 
+.submit {
+    width: 310px;
+    text-align: right;}
+
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;  
+    border: 4px  #000;
+    background-color: #f6f4e8;
+    vertical-align: baseline;
+    }
+
+#p-intro{
+    font-size: 25px;
+    padding-left: 220px;
+    padding-right: 20px;     
+    }
+
+#p-1{
+    font-size: 20px; 
+    margin: 10px
+    }
+
+/* Body text font  */ 
+body {
+    font-family:  'Oswald', sans-serif;
+    font-size: 90%;
+    color: #666;
+    background-color: #b3cbeb;}
+
+/* Used for the Form (Contact Page)  */ 
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: #f8f0df;
+    line-height: 1.6em;}
+
+/* Header font */
+h1.center-text{
+    font-family: 'Oswald',sans-serif;
+    font-size: 350%;
+    padding: 20px;}
+
+h2{
+    padding: 10px;
+}
+
+.img-1{
+    margin: auto;
+    width: 100%;
+    }
+.img-2{
+        margin: auto;
+        width: 30%;
+        padding-left: 10px;
+    }
+.img-3{
+    margin: auto;
+    width: 30%;
+    padding-left: 10px;
+    display: block;
+}
+
+/* For the Contact Page, "Contact Me" form */ 
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;}
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;}
+
+/* For the Contact Page, "Contact Me" text */   
+legend {
+    font-style:oblique;
+    color: #666666;}
+
+li {
+    list-style-image: url("images/icon-plus.png");
+    line-height: 1.6em;}
+
+/* Courses Page Tables */ 
+table {
+    border-spacing: 0px;
+    padding: 10px}
+
+td {
+    text-shadow: 1px 1px 1px #ffffff;}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+    text-align: left;
+    background-color: hsl(260, 100%, 90%);
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;}}
+
+tr.even td, tr.even th {
+    background-color: #ddcbff;}
+
+tr.head th {
+    color: #fff;
+    background-color: #c491ff;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;}
+
+tr.head th:first-child {
+    /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+        Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+
+        Not all CSS3 properties work well in all browsers. In a way to ensure that web pages display as expected in their browsers, vendors like Mozilla and Webkit developed their own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+        However, it is not unusual to still see these properties used in stylesheets. */
+
+    /* Webkit property*/
+    -webkit-border-top-left-radius: 5px;
+
+    /* Mozilla property*/
+    -moz-border-radius-topleft: 5px;
+
+    /* CSS3 property*/
+    border-top-left-radius: 5px;
+
+    /* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+    }
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+ul li {
+    display: inline;
+    padding: 10px;
+    float:right;
+    }
+
+ul li a, 
+ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    }
+
+video{
+    width: 940px;
+    }
+
+    .smlogo{
+        height: 21.3px;
+        width: 17px;
+        margin: auto;
+        display: block;
+    }
+    }
+

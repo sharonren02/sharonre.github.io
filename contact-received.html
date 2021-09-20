@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Me - Sharon Ren</title>
+        <link href="CSSTemplate.css" type="text/css" rel="stylesheet" />
+		
+	</head>
+	<body>
+		<div id="page">
+			<!-- This section is used to create the navigation bar at the top of the screen.-->
+			<div class="menu-holder">
+				<nav id="header-main-menu">
+					<ul class="main-menu ">
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="hobbies.html">Hobbies</a>
+						</li>
+						<li>
+							<a href="schedule.html">Courses</a>
+						</li>
+						<li>
+							<a href="index.html"> Home </a>
+						</li>
+						
+					</ul>
+				</nav>
+			</div>
+
+         <br/>
+
+		<h1 class= "center-text"> Sharon Ren - Contact Me </h1>
+	
+		<!-- Same as the contact.html form, but only seen when a form is sent in.  -->
+		<!-- This section is used to create the navigation bar at the top of the screen.-->
+		<div class = "center-mid-3">
+            <p> Thank you for your message! I will get back to you as soon as possible. In the meantime, feel free to send another message or continue looking around! </p>
+			<form action="https://docs.google.com/forms/d/e/1FAIpQLSfcwPbQ8gRs-xFKy1f2YUOJfzxf_qXdj3YFJfyXDyD2O4VpTw/viewform?usp=sf_link" method="get">
+				<fieldset >
+					<legend class = "center-3"> Contact Me</legend>
+					<p><label class="title" for="name">Your name:</label>
+						 <input type="text" name="name" id="name"><br />
+						 <label class="title" for="email">Your email:</label>
+						 <input type="text" name="email" id="email"></p>
+					<p>Comments/Messages for Sharon</p>
+					<textarea name="comments" cols="20" rows="6"> Enter your comment...</textarea>
+					<span class="title">How did you hear about me?</span>
+					<br /> <br />
+					<label><input type="radio" name="found-from" value="me" /> Directly from me</label>
+					<br />
+					<label><input type="radio" name="found-from" value="cmu" /> Carnegie Mellon University</label></p>
+					<label><input type="radio" name="found-from" value="friends" /> Friends</label></p>
+					<label><input type="radio" name="found-from" value="other" /> Other</label></p>
+				
+				<p><label for="location" class="title">Location:</label>
+					<select name="location" id="location">
+						<option value="ny">New York</option>
+						<option value="pa">Pittsburgh</option>
+						<option value="other">Other</option>
+					</select></p>
+	 	    <div class="submit"><input type="submit" value="Submit" /></div>
+		</fieldset>
+			 <p>Sharon currently resides in Pittsburgh, on campus at Carnegie Mellon University.</p>
+			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6250.794660877031!2d-79.94725331538709!3d40.443764516814234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1632097788805!5m2!1sen!2sus" 
+			 width="600" height="450" 
+			 style="border:0;" 
+			 allowfullscreen="" loading="lazy"></iframe>
+			</form>
+		</div>
+
+        <!-- The footer is where the bottom social media logos are, and can be clicked on to transfer to a different website.-->
+		<footer class="footer">
+                <div>
+                     <p> © 2021 </p>
+                    <div class="socialmedia"> 
+                        <a href="https://www.linkedin.com/in/sharon-ren/">
+                            <span class="linkedin"> <img class= "smlogo" src="img/linkedin.png"/></span>
+                        </a> 
+                        <a href="https://www.facebook.com/sharonrenn">
+                            <span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+                        </a> 
+                        <a href="https://www.instagram.com/sharenron/">
+                            <span class="instagram"> <img class= "smlogo" src="img/instagram.png"/> </span>
+                        </a> 
+                    </div>
+                </div>
+            </footer>
+
+		</div>
+	</body>
+</html>
